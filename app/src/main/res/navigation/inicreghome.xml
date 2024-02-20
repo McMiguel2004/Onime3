@@ -20,9 +20,5 @@
         android:name="com.example.onime2.hola"
         android:label="activity_hola"
         tools:layout="@layout/activity_hola" />
-    <fragment
-        android:id="@+id/edperfil"
-        android:name="com.example.onime2.edperfil"
-        android:label="fragment_edperfil"
-        tools:layout="@layout/fragment_edperfil" />
+
 </navigation>

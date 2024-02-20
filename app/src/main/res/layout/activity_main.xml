@@ -7,11 +7,11 @@
     tools:context=".MainActivity">
 
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_navigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        app:menu="@menu/bottom_navigation_menu" />
+<!--&lt;!&ndash;    <com.google.android.material.bottomnavigation.BottomNavigationView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/bottom_navigation"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_alignParentBottom="true"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:menu="@menu/bottom_navigation_menu" />&ndash;&gt;-->
 
 </RelativeLayout>

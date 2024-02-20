@@ -6,7 +6,7 @@ import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.NavigationUI;
 
-import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class hola extends AppCompatActivity {
 
@@ -15,10 +15,14 @@ public class hola extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hola);
 
-        // Obtén el NavController para el NavHostFragment
-        NavController navController = ((NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment)).getNavController();
+        // Obtén el NavHostFragment desde el layout
+        NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment);
 
-        // Configura el BottomNavigationView para el NavController
-        NavigationUI.setupWithNavController((NavigationView) findViewById(R.id.bottom_navigation), navController);
+        // Obtén el NavController del NavHostFragment
+        NavController navController = navHostFragment.getNavController();
+
+        // Configura el BottomNavigationView con el NavController
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
+        NavigationUI.setupWithNavController(bottomNavigationView, navController);
     }
 }

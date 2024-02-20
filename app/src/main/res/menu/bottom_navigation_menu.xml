@@ -1,18 +1,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
-        android:id="@+id/edperfil"
+        android:id="@+id/perfilFragment"
         android:title="Perfil"
         android:icon="@drawable/icperfil"
         android:tint="#FFFFFFFF" />
 
     <item
-        android:id="@+id/navigationhome"
+        android:id="@+id/homeFragment"
         android:title="Home"
         android:icon="@drawable/ichome"
         android:tint="#FFFFFFFF" />
 
     <item
-        android:id="@+id/navigationsocial"
+        android:id="@+id/socialFragment"
         android:title="Social"
         android:icon="@drawable/icsocial"
         android:tint="#FFFFFFFF" />
