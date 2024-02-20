@@ -20,5 +20,10 @@
         android:name="com.example.onime2.hola"
         android:label="activity_hola"
         tools:layout="@layout/activity_hola" />
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.example.onime2.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
 
 </navigation>
