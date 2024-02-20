@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/edperfil"
+        android:title="Perfil"
+        android:icon="@drawable/icperfil"
+        android:tint="#FFFFFFFF" />
+
+    <item
+        android:id="@+id/navigationhome"
+        android:title="Home"
+        android:icon="@drawable/ichome"
+        android:tint="#FFFFFFFF" />
+
+    <item
+        android:id="@+id/navigationsocial"
+        android:title="Social"
+        android:icon="@drawable/icsocial"
+        android:tint="#FFFFFFFF" />
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inicreghome"
+    app:startDestination="@id/activitylogin">
+
+    <fragment
+        android:id="@+id/activitylogin"
+        android:name="com.example.onime2.Activitylogin"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <fragment
+        android:id="@+id/activityRegistrar"
+        android:name="com.example.onime2.ActivityRegistrar"
+        android:label="activity_registrar"
+        tools:layout="@layout/activity_registrar" />
+    <fragment
+        android:id="@+id/hola"
+        android:name="com.example.onime2.hola"
+        android:label="activity_hola"
+        tools:layout="@layout/activity_hola" />
+    <fragment
+        android:id="@+id/edperfil"
+        android:name="com.example.onime2.edperfil"
+        android:label="fragment_edperfil"
+        tools:layout="@layout/fragment_edperfil" />
+</navigation>

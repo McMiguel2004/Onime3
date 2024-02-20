@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Onime2" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+
+    <style name="Theme.Onime" parent="Base.Theme.Onime2">
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/backgorundboton</item>
+    </style>
+
+    <style name="Theme.Onime2" parent="Base.Theme.Onime2" />
+</resources>
